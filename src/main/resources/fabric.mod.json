@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "kitsaver",
+  "version": "${version}",
+  "name": "TreeOne",
+  "description": "Adds buttons to Save and Load positions of inventory items.",
+  "authors": [
+    "TreeOne"
+  ],
+  "contact": {
+    "sources": "https://t.me/tr330ne"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "treeone.kitsaver.Addon"
+    ]
+  },
+  "mixins": [
+    "kitsaver.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ">=${mc_version}",
+    "meteor-client": "*"
+  }
+}

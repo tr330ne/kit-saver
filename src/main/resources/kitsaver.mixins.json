@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "treeone.kitsaver.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
