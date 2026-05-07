@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "kitsaver",
   "version": "${version}",
-  "name": "TreeOne",
+  "name": "KitSaver",
   "description": "Adds buttons to Save and Load positions of inventory items.",
   "authors": [
     "TreeOne"
